@@ -1,0 +1,22 @@
+{
+  "name": "ajax1703",
+  "version": "1.0.0",
+  "description": "",
+  "main": "a.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motcondicontrinh1/ajax1703.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/motcondicontrinh1/ajax1703/issues"
+  },
+  "homepage": "https://github.com/motcondicontrinh1/ajax1703#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
