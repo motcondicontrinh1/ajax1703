@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "model": "openai/kimi-k2-6",
+  "instructions": [".opencode/instructions/INSTRUCTIONS.md"],
+  "agent": [
+    "agents/planner.md",
+    "agents/typescript-reviewer.md"
+  ],
+  "mcp": {
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp"]
+    }
+  }
+}
